@@ -4,22 +4,24 @@ Ceci est un dossier permettant de générer différents projets cpp.
 
 # Architecture des fichiers 
 
->App
->├── generate
->│   ├── genere
->│   ├── genere.cpp
->│   └── Makefile
->├── template 
->│   ├── include
->│   │   └── MaClass.h
->│   ├── obj 
->│   │   └── MaClass.o
->│   ├── src  
->│   │   └── MaClass.cpp
->│   ├── Makefile 
->│   └── main.cpp
->├── createProject.sh 
->└── createClass.sh 
+```
+App
+├── generate
+│   ├── genere
+│   ├── genere.cpp
+│   └── Makefile
+├── template 
+│   ├── include
+│   │   └── MaClass.h
+│   ├── obj 
+│   │   └── MaClass.o
+│   ├── src  
+│   │   └── MaClass.cpp
+│   ├── Makefile 
+│   └── main.cpp
+├── createProject.sh 
+└── createClass.sh 
+```
 
 # Utilisation
 
